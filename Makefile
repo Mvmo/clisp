@@ -10,6 +10,6 @@ compile: prepare
 	gcc src/main.c -Wall -o bin/runnable.out
 
 run:
-	./runnable.out
+	./bin/runnable.out
 
 all: bclear compile run
